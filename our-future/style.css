@@ -181,17 +181,16 @@ color: #383838;
 .container-3 {
     display: flex;
     width: 100%;
-    height: 455px; /* Высота контейнера */
+    height: 455px; 
     color: aliceblue;
 }
 
 .first-half, .second-half {
-    flex: 1; /* Оба блока занимают по 50% ширины */
-    
+    flex: 1; 
 }
 
 .first-half {
-    background-color: rgb(43, 43, 43); /* Тёмный фон */
+    background-color: rgb(43, 43, 43); 
     text-align: left;
     position: relative;
 }
@@ -213,9 +212,9 @@ color: #383838;
     line-height: 1.6;
 }
 
-/* Контейнер изображений в обеих секциях */
+
 .img-list-1, .img-list-2 {
-    width: 210px; /* Размер изображений */
+    width: 210px; 
     height: 171px;
     object-fit: cover;
 }
@@ -232,7 +231,7 @@ color: #383838;
     position: relative;
 }
 
-/* Контейнер для изображений */
+
 .image-container-2 {
     display: flex;
    
